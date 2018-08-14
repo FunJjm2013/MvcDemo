@@ -1,0 +1,436 @@
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll.config
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Owin.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\WebGrease.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.pdb
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csprojResolveAssemblyReference.cache
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.dll
+F:\study\dotnet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll.config
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Owin.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\WebGrease.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.pdb
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csprojResolveAssemblyReference.cache
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.dll
+E:\学习代码\DotNet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll.config
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Owin.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\WebGrease.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csprojResolveAssemblyReference.cache
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.pdb
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\源代码\dotnet\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll.config
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Owin.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\WebGrease.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll.config
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.pdb
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll.config
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csprojResolveAssemblyReference.cache
+E:\源代码\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.dll
+E:\源代码\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll.config
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Web.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Owin.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\WebGrease.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.BLL.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Common.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IBLL.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.Models.dll.config
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\EntityFramework.SqlServer.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Helpers.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Mvc.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Optimization.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.Razor.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Deployment.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\System.Web.WebPages.Razor.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Newtonsoft.Json.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Antlr3.Runtime.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.IDAL.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.pdb
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\MVCDemo.DAL.dll.config
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csprojAssemblyReference.cache
+E:\source code\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csproj.CoreCompileInputs.cache
+E:\source code\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.csproj.CopyComplete
+E:\source code\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.dll
+E:\source code\MVCDemoSolution\MVCDemo.Web\obj\Debug\MVCDemo.Web.pdb

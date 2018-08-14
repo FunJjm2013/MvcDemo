@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "DomOpertion";
+}
+@section scripts{
+
+    <script src="~/Areas/JavaScript/Scripts/Home/DomOpertion.js"></script>
+}
+<h2>DomOpertion</h2>
+
+<table width="500" border="1" align="center" id="mytable">
+    <tr>
+        <td width="20%" align="center">评论人</td>
+        <td width="80%" align="center">评论内容</td>
+    </tr>
+</table><hr />
+<div align="center">
+    <form name="form1" method="post" action="">
+        评论人：  <input name="person" type="text" id="person" size="50" /><br /><br />
+        评论内容：<textarea name="content" cols="60" rows="6" id="content"></textarea>
+        <br /><br />
+        <input type="button" name="send" value="发表" onclick="addElement();"/>
+        <input type="reset" name="reset" value="重置" />
+        <input type="button" name="deletefirst" value="删除第一条" onclick="deleteFirstE();" />
+        <input type="button" name="deletelast" value="删除最后一条" onclick="deleteLastE();" />
+    </form>
+</div>

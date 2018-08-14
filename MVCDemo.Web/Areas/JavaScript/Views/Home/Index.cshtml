@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>欢迎来到JavaScript世界！</p>
+
+<ol>
+    <li>@Html.ActionLink("欢迎", "Welcome", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "indexLink" })</li>
+    <li>@Html.ActionLink("时间", "DateTime", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "dateLink" })</li>
+    <li>@Html.ActionLink("语法", "Grammer", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "grammerLink" })</li>
+    <li>@Html.ActionLink("遍历", "GetElement", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "ergodicLink" })</li>
+    <li>@Html.ActionLink("DOM操作", "DomOpertion", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "domOpertionLink" })</li>
+    <li>@Html.ActionLink("正则表达式", "RegularExpression", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "regularExpressionLink" })</li>
+    <li>@Html.ActionLink("幻灯片", "Slide", "Home", new { Area = "JavaScript" }, htmlAttributes: new { id = "slideLink" })</li>
+</ol>

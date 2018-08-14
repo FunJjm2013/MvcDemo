@@ -1,0 +1,151 @@
+﻿
+@{
+    ViewBag.Title = "Grammer";
+}
+
+<h2>Grammer</h2>
+
+<ol>
+    <li>基于MVC的Http请求
+       <ol>
+           <li>浏览器
+               <ol>
+                   <li>构建请求报文，并将请求报文发送给浏览器</li>
+               </ol>
+           </li>
+           <li>服务器
+               <ol>
+                   <li>内核模式
+                      <ol>
+                          <li>HTTP.sys对请求报文做基本处理</li>
+                      </ol>
+                   </li>
+                   <li>用户模式
+                       <ol>
+                           <li>
+                               IIS服务器
+                               <ol>
+                                   <li>对请求的数据做一个检查
+                                       <ol>
+                                           <li>
+                                               静态资源（html,jpg,gif,js）,直接返回给浏览器，浏览器负责直接解释这些资源
+                                           </li>
+                                           <li>
+                                               动态资源（aspx,ashx）,IIS服务器处理不了，启动W3wp.exe
+                                               <ol>
+                                                   <li>非托管模式:不基于.net类库,GC不能有效回收
+                                                      <ol>
+                                                          <li>aspnet_isapi.dll,加载运行时，然后将数据传递给.net framework，进度托管模式</li>
+                                                      </ol>
+                                                   </li>
+                                                   <li>托管模式
+                                                      <ol>
+                                                          <li>ISAPIRuntime:ProcessRequest(IntPtr ecb, Int32 iWRType) : Int32
+                                                              <ol>
+                                                                  <li>
+                                                                      IntPtr ecb:句柄，操作系统的概恋，指的就是资源的编号，系统将所有的资源加上一个编号，如果要取这个资源，ecb句柄，就是请求报文的一个资源编号
+                                                                  </li>
+                                                              </ol>
+                                                          </li>
+                                                          <li>
+                                                              CreateWorkerRequest(IntPtr, Boolean) : ISAPIWorkerRequest:根据Ecb创建出HttpWorkRequest:封装的是请求报文最原始的数据
+                                                          </li>
+                                                          <li>
+                                                              ProcessRequestNoDemand(HttpWorkerRequest) : Void:将HttpWorkerRequest传递到HttpRuntime中
+                                                          </li>
+                                                          <li>
+                                                              在HttpRuntime中创建HttpContext(context= new HttpContext(wr,false));
+                                                          </li>
+                                                          <li>
+                                                              最终请求报文的数据被封装到HttpContext中
+                                                          </li>
+                                                          <li>
+                                                              Init(HttpRequest, HttpResponse) : Void
+                                                              <ol>
+                                                                  <li>
+                                                                      HttpRequest:接收数据
+                                                                  </li>
+                                                                  <li>
+                                                                      HttpResponse:输出数据
+                                                                  </li>
+                                                              </ol>
+                                                          </li>
+                                                          <li>
+                                                              创建了一个HttpApplication对象，处理浏览器发送过来的数据，由于请求的数据都封装到HttpContext中，那么这里需要将HttpContext传递到HttpApplication中
+                                                              <ol>
+                                                                  <li>那么HttpApplication是怎么被创建的呢？</li>
+                                                                  <li>通过一个工场类来创建<pre>            context.Response.InitResponseWriter();
+            IHttpHandler applicationInstance = HttpApplicationFactory.GetApplicationInstance(context);
+</pre></li>
+                                                                  <li><pre>_theApplicationFactory.EnsureInited();
+    _theApplicationFactory.EnsureAppStartCalled(context);
+    return _theApplicationFactory.GetNormalApplicationInstance(context);</pre>
+</li>
+                                                                  <li>
+                                                                      在创建HttpApplication的时候，用到了池的应用，在创建的时候看一下有没有空闲的HttpApplication，如果有直接拿来放入，用完后放入池中。
+                                                                      <ol>
+                                                                          <li>
+                                                                              在这里这个池就是栈，如果这个池中没有空闲，那么就创建一个
+                                                                              <pre>
+                                                                           if (state == null)
+    {
+        state = (HttpApplication) HttpRuntime.CreateNonPublicInstance(this._theApplicationType);
+        using (new ApplicationImpersonationContext())
+        {
+            state.InitInternal(context, this._state, this._eventHandlerMethods);
+        }
+    }
+</pre>
+                                                                          </li>
+                                                                          <li>
+                                                                              通过反射的形式将Global.asax文件编译的类型创建出HttpApplication
+                                                                          </li>
+                                                                          <li>
+                                                                              找到Global.asax并对Global.asax进行编译，编译出_theApplicationType,调用
+                                                                              <pre>
+          _theApplicationFactory.EnsureInited();
+</pre>
+                                                                          </li>
+                                                                          <li>
+                                                                              _theApplicationFactory.EnsureAppStartCalled(context);
+                                                                              <pre>
+确保Global.asax文件中的Application_Start方法被调用，并且只调用一次
+</pre>
+                                                                          </li>
+                                                                          <li>
+                                                                              当创建出HttpApplication以后，会遍历Web.config文件中关于HttpModule的信息，然后执行其中的Init方法
+                                                                              <pre>
+    int count = this._moduleCollection.Count;
+    for (int i = 0; i < count; i++)
+    {
+        this._currentModuleCollectionKey = this._moduleCollection.GetKey(i);
+        this._moduleCollection[i].Init(this);
+    }
+    this._currentModuleCollectionKey = null;
+    this.InitAppLevelCulture();
+
+</pre>
+                                                                          </li>
+                                                                          <li>
+                                                                              进入请求管道
+                                                                          </li>
+                                                                      </ol>
+                                                                  </li>
+                                                                  
+                                                              </ol>
+                                                          </li>
+                                                      </ol>
+                                                   </li>
+                                               </ol>
+                                           </li>
+                                       </ol>
+                                   </li>
+                               </ol>
+                           </li>
+                       </ol>
+                   </li>
+               </ol>
+           </li>
+       </ol>
+    </li>
+</ol>

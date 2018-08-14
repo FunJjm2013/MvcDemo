@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "RegularExpression";
+}
+@section scripts{
+    <script src="~/Areas/JavaScript/Scripts/Home/RegularExpression.js"></script>
+}
+<h2>RegularExpression</h2>
+
+
+<form name="form1" id="from1" action="">
+    请输入数字：<input type="text" id="number" /><input type="button" onclick="verification();" value="验证数字" /><br />
+    请输入电话：<input type="text" name="tel" id="tel"/><input type="button" name="check" value="检测电话" onclick="checkTel();"/><br />
+    输入身份证：<input type="text" name="IDCard" id="IDCard"/><input type="button" name="getbirthday" value="获取生日" onclick="getBirthday();"/>
+</form>

@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>欢迎来到JQuery世界！</p>
+<ol>
+    <li>@Html.ActionLink("语法", "Grammer", "Home", new { Area = "JQuery" }, htmlAttributes: new { id = "grammerLink" })</li>
+    <li>@Html.ActionLink("基本语法和页面就绪函数", "BaseInit", "Home", new { Area = "JQuery" }, htmlAttributes: new { id = "baseInitLink" })</li>
+    <li>@Html.ActionLink("基本选择器", "BaseSelector", "Home", new { Area = "JQuery" }, htmlAttributes: new { id = "slectorInitLink" })</li>
+    <li>@Html.ActionLink("属性选择器", "AttributeSelector", "Home", new { Area = "JQuery" }, htmlAttributes: new { id = "attributeSelectorLink" })</li>
+    <li>@Html.ActionLink("位置选择器", "PositionSelector", "Home", new { Area = "JQuery" }, htmlAttributes: new { id = "attributeSelectorLink" })</li>
+    <li>@Html.ActionLink("层叠选择器", "CascadeSelector", "Home", new { Area = "JQuery" }, htmlAttributes: new { id = "attributeSelectorLink" })</li>
+</ol>

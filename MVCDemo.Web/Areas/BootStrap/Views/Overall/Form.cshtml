@@ -1,0 +1,250 @@
+﻿@{
+    ViewBag.Title = "表单";
+}
+
+<h2>表单</h2>
+
+
+<form>
+    <div class="form-group">
+        <label for="em">用户名</label>
+        <input type="email" class="form-control" placeholder="Email" id="em" />
+
+    </div>
+    <div class="form-group">
+        <label>密码</label>
+        <input type="password" class="form-control" placeholder="Password" />
+    </div>
+    <div class="form-group">
+        <label>File input</label>
+        <input type="file" />
+        <p>请选择文件。。。</p>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" />男
+        </label>
+    </div>
+    <button type="submit" class="btn btn-default">提交</button>
+</form>
+<form>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" value="">
+            Option one is this and that&mdash;be sure to include why it's great
+        </label>
+    </div>
+    <div class="checkbox disabled">
+        <label>
+            <input type="checkbox" value="" disabled>
+            Option two is disabled
+        </label>
+    </div>
+
+    <div class="radio">
+        <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            Option one is this and that&mdash;be sure to include why it's great
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Option two can be something else and selecting it will deselect option one
+        </label>
+    </div>
+    <div class="radio disabled">
+        <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+            Option three is disabled
+        </label>
+    </div>
+</form>
+<form>
+    <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+    </label>
+    <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+    </label>
+    <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+    </label>
+
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+    </label>
+</form>
+<br />
+<form>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+        </label>
+    </div>
+</form>
+<br />
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <p class="form-control-static">jikexueyuan@163.com</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassowrd" placeholder="Password" />
+        </div>
+    </div>
+</form>
+<form class="form-inline">
+    <div class="form-group">
+        <label class="sr-only">Email</label>
+        <p class="form-control-static">email@example.com</p>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password" />
+    </div>
+    <button type="submit" class="btn btn-default">Confirm identity</button>
+</form>
+<br />
+<form class="form-inline">
+    <div class="form-group">
+        <label class="sr-only">Email</label>
+        <p class="form-control-static">email@example.com</p>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password" readonly />
+    </div>
+    <button type="submit" class="btn btn-default">Confirm identity</button>
+</form>
+<br />
+<form>
+    <div class="form-group has-success">
+        <label class="control-label" for="inputSuccess1">Input with success</label>
+        <input type="text" class="form-control" id="inputSuccess1">
+    </div>
+    <div class="form-group has-warning">
+        <label class="control-label" for="inputWarning1">Input with warning</label>
+        <input type="text" class="form-control" id="inputWarning1">
+    </div>
+    <div class="form-group has-error">
+        <label class="control-label" for="inputError1">Input with error</label>
+        <input type="text" class="form-control" id="inputError1">
+    </div>
+    <div class="has-success">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="checkboxSuccess" value="option1">
+                Checkbox with success
+            </label>
+        </div>
+    </div>
+    <div class="has-warning">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="checkboxWarning" value="option1">
+                Checkbox with warning
+            </label>
+        </div>
+    </div>
+    <div class="has-error">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="checkboxError" value="option1">
+                Checkbox with error
+            </label>
+        </div>
+    </div>
+</form>
+<br />
+<form>
+    <fieldset disabled>
+        <div class="form-group has-success">
+            <label class="control-label" for="inputSuccess1">Input with success</label>
+            <input type="text" class="form-control" id="inputSuccess1">
+        </div>
+        <div class="form-group has-warning">
+            <label class="control-label" for="inputWarning1">Input with warning</label>
+            <input type="text" class="form-control" id="inputWarning1">
+        </div>
+        <div class="form-group has-error">
+            <label class="control-label" for="inputError1">Input with error</label>
+            <input type="text" class="form-control" id="inputError1">
+        </div>
+        <div class="has-success">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="checkboxSuccess" value="option1">
+                    Checkbox with success
+                </label>
+            </div>
+        </div>
+        <div class="has-warning">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="checkboxWarning" value="option1">
+                    Checkbox with warning
+                </label>
+            </div>
+        </div>
+        <div class="has-error">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="checkboxError" value="option1">
+                    Checkbox with error
+                </label>
+            </div>
+        </div>
+        <a href="http://www.baidu.com">hello</a>
+        <button type="reset" class="btn btn-primary">重置</button>
+    </fieldset>
+</form>
+<form class="form-horizontal">
+    <div class="form-group has-success has-feedback">
+        <label class="control-label sr-only">Hello</label>
+        <input type="text" class="form-control" placeholder="Hello" aria-describedby="inputsuccessstatus" />
+        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+    </div>
+</form>
+<form class="form-horizontal">
+    <input class="form-control input-lg" type="text" placeholder="大" />
+    <input class="form-control" type="text" placeholder="默认" />
+    <input class="form-control input-sm" type="text" placeholder="小" />
+</form>
+<br />
+<form class="form-horizontal">
+    <div class="form-group form-group-lg">
+        <label class="col-sm-2 control-label" for="formGroupInputLarge">Large label</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Large input">
+        </div>
+    </div>
+    <div class="form-group form-group-sm">
+        <label class="col-sm-2 control-label" for="formGroupInputSmall">Small label</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Small input">
+        </div>
+    </div>
+</form>
+
+<form class="form-horizontal">
+    <label class="sr-only">Hello</label>
+    <input type="password" class="form-control" aria-describedby="heloBlock"/>
+    <span id="helpBlock" class="help-block">这是密码输入提示</span>
+</form>

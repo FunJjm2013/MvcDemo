@@ -1,0 +1,622 @@
+﻿
+@{
+    ViewBag.Title = "Grammer";
+}
+@section scripts{
+    <script src="~/Areas/JavaScript/Scripts/Home/grammer.js"></script>
+}
+<h2>Grammer</h2>
+
+<p>JavaScript语法：</p>
+<ol>
+    <li>js的变量区分大小写</li>
+    <li>结尾的分号可有可无</li>
+    <li>变量是弱类型</li>
+    <li>使用大括号标签代码块</li>
+    <li>
+        使用双斜线注释
+        <ol>
+            <li>单行注释</li>
+            <li>多行注释</li>
+        </ol>
+    </li>
+</ol>
+<p>JavaScript中的关键字</p>
+<ol>
+    <li>关键字不能用作变量名，函数名以及循环标签</li>
+</ol>
+<p>
+    JavaScript的数据类型
+</p>
+<ol>
+    <li>
+        数值型
+        <ol>
+            <li>
+                整型：
+                <ol>
+                    <li>123 十进制</li>
+                    <li>0123 八进制</li>
+                    <li>0x123 十六进制</li>
+                </ol>
+            </li>
+            <li>
+                浮点型：
+                <ol>
+                    <li>整数部分加小数部分组成</li>
+                    <li>3.1415926535 标准形式的浮点</li>
+                    <li>3.14E9 科学计数，3.14乘以10的9次方</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        字符型：
+        <ol>
+            <li>
+                单引号或者双引号表示
+            </li>
+            <li>
+                没有Char类型
+            </li>
+        </ol>
+    </li>
+    <li>
+        布尔型：
+        <ol>
+            <li>
+                只有true或者false，也可以用0表示false，非0整数表示true
+            </li>
+        </ol>
+    </li>
+    <li>
+        转义字符：
+        <ol>
+            <li>以反斜杆开头的不可显示的特殊字符通常称为控制字符，也被称为转义字符</li>
+            <li>\b 退格</li>
+            <li>\n 换行</li>
+            <li>\f 换页</li>
+            <li>\t Tab符</li>
+            <li>\r 回车符</li>
+            <li>\' 打印单引号本身</li>
+            <li>\" 打印双引号本身</li>
+            <li>\\ 打印反斜杆本身</li>
+        </ol>
+    </li>
+    <li>
+        空值
+        <ol>
+            <li>null,用于定义空值或者不存在的值</li>
+            <li>var a=null;</li>
+        </ol>
+    </li>
+    <li>
+        未定义值：
+        <ol>
+            <li>已经声明但是没有赋值的变量</li>
+            <li>var a;</li>
+            <li>alert(a);</li>
+            <li>undefined是关键字，用来代表未定义</li>
+        </ol>
+    </li>
+    <li>虽然有很多数据类型，当是在声明的时候只能用var，不能用别的方法来声明</li>
+</ol>
+<p>变量的定义与使用</p>
+<ol>
+    <li>
+        变量的命名和使用
+        <ol>
+            <li>不能使用下划线</li>
+            <li>不能使用关键字</li>
+            <li>严格区分大小写</li>
+            <li>user User</li>
+        </ol>
+    </li>
+
+    <li>
+        变量的申明
+        <ol>
+            <li>
+                var variable;
+            </li>
+            <li>
+                可以使用一个var声明多个变量；
+            </li>
+            <li>
+                可以在声明时同时赋值
+            </li>
+            <li>
+                只声明不复值，都是undefind
+            </li>
+            <li>
+                如果给一个尚未声明的变量赋值时，js会自动创建一个全局变量，在方法体内部也一样会被创建为全局变量
+            </li>
+            <li>方法体外声明都是全局变量</li>
+            <li>方法体内声明有var是局部，反之为全局</li>
+        </ol>
+    </li>
+    <li>
+        变量的作用域
+        <ol>
+            <li>
+                全局变量
+            </li>
+            <li>
+                局部变量
+            </li>
+        </ol>
+    </li>
+</ol>
+<p>运算符的运用</p>
+<ol>
+    <li>
+        赋值运算符
+        <ol>
+            <li>var userName="tom";</li>
+            <li>
+                复合赋值运算符
+                <ol>
+                    <li>a+=b;</li>
+                    <li>a/=b;</li>
+                    <li>a%=b;</li>
+                    <li>a&=b;</li>
+                    <li>a|=b;</li>
+                    <li>a^=b;</li>
+                </ol>
+            </li>
+        </ol>
+
+    </li>
+
+    <li>
+        算术运算符
+        <ol>
+            <li>+ alert(3+5);</li>
+            <li>- * %</li>
+            <li>++ i=1;j=i++;//j是1，i是2；先用后加</li>
+            <li>   i=1;j=++i;//j是2，i是2；先加后用</li>
+            <li>-- 同理</li>
+            <li>除法运算时，0不能做为除数，如果0是除数，则反回结果为Infinity。</li>
+        </ol>
+    </li>
+    <li>
+        比较运算符
+        <ol>
+            <li>></li>
+            <li><</li>
+            <li>>=</li>
+            <li><=</li>
+            <li>==:只根据表面值进行判断，不判断数据类型</li>
+            <li>===;绝对等于，同时判断表面值和数据类型</li>
+            <li>!=:只根据表面值进行判断</li>
+            <li>!==:不对等于，不仅判断表面值，还判断数据类型</li>
+        </ol>
+    </li>
+    <li>
+        逻辑运算符
+        <ol>
+            <li>! 逻辑非，!真=假</li>
+            <li>&& 逻辑与，当两个都为true，才为true</li>
+            <li>|| 逻辑或，只要有一个true，返回true</li>
+        </ol>
+    </li>
+    <li>
+        条件运算符
+        <ol>
+            <li>条件运算符是javascript支持的一种特殊的三元运算符。</li>
+            <li>语法格式： 操作数？结果1:结果2；</li>
+        </ol>
+    </li>
+    <li>
+        字符串运算符
+        <ol>
+            <li>
+                连接字符串的两种方式
+                <ol>
+                    <li>+</li>
+                    <li>+=</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+<p>流程控制语句之if\switch</p>
+<ol>
+    <li>
+        if条件判断语句
+        <ol>
+            <li>if(expression){}</li>
+            <li>if(expression){}else{}</li>
+            <li>if(expression1){}else if(expression2)(){}else{}</li>
+        </ol>
+    </li>
+    <li>
+        switch语句
+        <ol>
+            <li>语法格式：</li>
+            <li>switch(expression){</li>
+            <li>case judgement1:statement1;break;</li>
+            <li>case judgement2:statement2;break;</li>
+            <li>case judgement3:statement3;break;</li>
+            <li>case judgement4:statement4;break;</li>
+            <li>default:defaultstatement;break;</li>
+        </ol>
+    </li>
+</ol>
+<p>流程控制之for\while\do-while语句</p>
+<ol>
+    <li>
+        for循环语句
+        <ol>
+            <li>语法格式：for(1、initialize;2、test;4、increment){3、statement}</li>
+            <li>1\2\3\4\2\3\4\2\3\4</li>
+        </ol>
+    </li>
+    <li>
+        while循环语句
+        <ol>
+            <li>语法格式：while(1、expression){2、statement;}</li>
+            <li>1->2->1->2</li>
+        </ol>
+    </li>
+    <li>
+        do-while循环语句
+        <ol>
+            <li>
+                do-while循环体能够保证至少执行一次
+            </li>
+            <li>
+                do{1、statement}while(2、expression)
+            </li>
+        </ol>
+    </li>
+</ol>
+<p>函数的定义和调用</p>
+<ol>
+    <li>
+        函数的定义
+        <ol>
+            <li>function functionName([parameter1,parameter2,...]){statments;[return expression;]}</li>
+            <li>function是必须要写的，因为这些是定义函数的关键字</li>
+            <li>functionName是函数名，必须要写，而且在同一个页面中，函数名是唯一的，并且区分大小写。</li>
+            <li>parameter:可选参数，最多可以有255个参数</li>
+            <li>statements:必选参数</li>
+            <li>expression可选参数</li>
+            <li>实例：function account(price,nuber){}</li>
+        </ol>
+    </li>
+    <li>
+        函数的调用
+        <ol>
+            <li>用户名：<input type="text" name="userName" id="userName" size="30" /><input type="button" onclick="checkUserName();" value="检测" /></li>
+        </ol>
+    </li>
+
+</ol>
+
+<p>事件与事件处理</p>
+<ol>
+    <li>
+        事件
+        <ol>
+            <li>什么是事件？例如在界面载入完毕时，将触发onload（载入）事件</li>
+            <li>
+                常用事件:
+                <ol>
+                    <li>onabort:对象载入被终断时触发</li>
+                    <li>onblur:元素或窗口本身失去焦点时触发</li>
+                    <li>onchange:改变select元素中的选项或其他表单元素失去焦点，并且在其他获取焦点后内容发生变化改变时触发</li>
+                    <li>onerror:出现错误时触发</li>
+                    <li>onfocus:任何元素或窗口本身获得焦点时触发</li>
+                    <li>......</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        事件处理
+        <ol>
+            <li>事件处理程序是事件触发时执行的程序。</li>
+            <li><input type="button" name="save" id="save" value="保存" /></li>
+            <li>用js绑定事件的方法要注意，要先存在元素，再写js</li>
+        </ol>
+    </li>
+</ol>
+
+<p>
+    String对象
+</p>
+<ol>
+    <li>
+        属性
+        <ol>
+            <li>在javascript中可以用单引号或者双引号括起来的一个字符串当作一个字符串对象</li>
+            <li>length:返回String对象的长度</li>
+        </ol>
+    </li>
+    <li>
+        常用方法
+        <ol>
+            <li>
+                indexof(subsString[,startIndex]):返回第一次出现子字符串出现的位置。
+                <ol>
+                    <li>subsString:必选参数，用在String对象中查找的子字符串</li>
+                    <li>startIndex:可选参数，表示从第几个开始查找</li>
+                </ol>
+            </li>
+            <li>
+                substr(start[,length]):用来返回指定字符串的子串
+                <ol>
+                    <li>start:必选参数，用于指定获取子字符串的起始下标.如果是一个负数，那么表示从字符串的尾部开始算起。-1表示最后一个字符，-2表示倒数第二个字符，以此类推</li>
+                    <li>length:可选参数，用户指定字符串中字符的个数。如果省略，则返回从start开始位置到字符串结尾的子串。</li>
+                </ol>
+            </li>
+            <li>
+                substring(from[,to])
+                <ol>
+                    <li>from:用户指定要获取子字符串在指定字符串中的起始位置</li>
+                    <li>to:可选参数，用户指定要获取子字符串在指定字符串中的结束为止，如果不写，则表示获取从起始位置到结束。</li>
+                </ol>
+            </li>
+            <li>
+                split(delimiter[,limit]):用户将字符串分割为字符串数组
+                <ol>
+                    <li>delimiter:指定的分割符。</li>
+                    <li>limit:可选参数，用来获取返回数组的最大长度。</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+
+<p>Math与Date对象介绍</p>
+
+<ol>
+    <li>
+        Math对象
+        <ol>
+            <li>在使用Math对象时不能使用new关键字实例化对象。</li>
+            <li><a href="http://bbs.java1995.com/javascript5.5.html">中文API</a></li>
+        </ol>
+    </li>
+    <li>
+        Date对象
+        <ol>
+            <li>见上级目录</li>
+        </ol>
+    </li>
+</ol>
+
+<p>Window对象介绍</p>
+
+<ol>
+    <li>
+        window对象即为浏览器窗口对象，是所有对象的顶级对象。
+        <ol>
+            <li>window对象提供了许多属性和方法，这些属性和方法被用来操作浏览器页面的内容。</li>
+            <li>需要new方法来实例化对象。</li>
+        </ol>
+    </li>
+    <li>
+        window对象的常用属性
+        <ol>
+            <li>document:对窗口和框架中含有的document对象的只读引用。</li>
+            <li>defaultStatus:一个可读写的字符，用于指定状态栏中的默认消息。</li>
+            <li>frames:表示当前窗口中所有frame对象的集合。</li>
+            <li>location:用于代表窗口或框架的location对象。如果将一个url赋给该属性，那么该浏览器将加载并显示该Url指定的对象</li>
+            <li>length:窗口或框架包含的框架数目</li>
+            <li>history:对窗口和框架的history对象的只读引用</li>
+            <li>name:用户存放窗口的名字</li>
+            <li>status:一个可读写的字符，用于指定状态栏中的当前信息</li>
+            <li>top:表示最顶层的浏览器窗口</li>
+            <li>parent:表示当前窗口的父窗口</li>
+            <li>opener:表示打开当前窗口的父窗口</li>
+            <li>closed:一个只读的布尔值，表示当前窗口是否关闭</li>
+            <li>self:表示当前窗口</li>
+            <li>screen:对窗口或框架screen的只读引用</li>
+            <li>navigator:只读引用，得到浏览器相关信息</li>
+        </ol>
+    </li>
+    <li>
+        window对象的常用用法:window使用十分频繁，所以javascript使用window方法可以省略
+        <ol>
+            <li>alert();</li>
+            <li>confirm();</li>
+            <li>prompt();</li>
+            <li>blur();</li>
+            <li>close();</li>
+            <li>focus();</li>
+            <li>
+                open();
+                <ol>
+                    <li>如果指定名字，那么再次打开时，将获得对名字引用</li>
+                </ol>
+            </li>
+            <li>
+                resizeTo();
+            </li>
+            <li>
+                ......
+            </li>
+        </ol>
+    </li>
+</ol>
+
+<p>DOM技术概述</p>
+<ol>
+    <li>
+        DOM概述
+        <ol>
+            <li>
+                DOM是一种浏览器、平台、及语言无关的接口，能够以编程的方式访问和操作文档
+                <ol>
+                    <li>DOM是Document Object Model(文档对象模型的简称)</li>
+                    <li>提供了访问、操作该模型的API</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        DOM的分层结构
+        <ol>
+            <li>
+                在DOM中:
+                <ol>
+                    <li>文档的层次结构被表示为树形结构，树是倒立的，树根在上，枝叶在下面，树的节点表示文档中的内容。</li>
+                    <li>在树形结构中，直接位于一个节点之下的节点被称为该节点的子节点;</li>
+                    <li>直接位于一个节点之上的节点被称为该节点的父节点;</li>
+                    <li>具有相同父节点的节点是兄弟节点;</li>
+                    <li>一个节点的下一层次的节点集合是该节点的后代;</li>
+                    <li>一个节点的父节点，祖先节点以及其他所有位于他之上的节点都是该节点的祖先;</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+<p>DOM遍历文档</p>
+<ol>
+    <li>
+        遍历文档
+        <ol>
+            <li>在DOM中，HTML文档各个节点被视为各种类型的Node对象，并且将Html文档表示为Node对象的树。</li>
+            <li>
+                Node对象的属性
+                <ol>
+                    <li>parentNode Node 节点的父节点，没有父节点是为null。</li>
+                    <li>childNodes NodeList 节点的所有子节点的Nodelist</li>
+                    <li>firstChild Node 节点的第一个子节点，没有则为null</li>
+                    <li>lastChild Node 节点的最后一个子街点，没有则为null</li>
+                    <li>nodeName String 节点名</li>
+                    <li>nodeValue String 节点值</li>
+                    <li>previousSibling Node 上一个兄弟节点</li>
+                    <li>nextSibling Node 下一个兄弟节点</li>
+                    <li>
+                        nodeType short 表示节点类型的常量
+                        <ol>
+                            <li>
+                                Element
+                                <ol>
+                                    <li>a</li>
+                                    <li>img</li>
+                                </ol>
+                            </li>
+                            <li>Text</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+<p>DOM操作文档</p>
+<ol>
+    <li>
+        常用方法：
+        <ol>
+            <li>insertBefore(newChild,refChild);  在现有节点refChild之前插入newChiled</li>
+            <li>replaceChild(newChild,oldChild);  将字节点oldChild换成newChild，并返回oldChild节点</li>
+            <li>removeChild(oldChild); 将子节点清单中的字节点oldChild删除，并返回oldChild</li>
+            <li>appendChild(newChild); 将节点newChild添加到字节点清单的末尾,如果newChild已经在清单中，则先删除;</li>
+            <li>hasChildNodes(); 返回一个bool值，表示是否有子节点；</li>
+            <li></li>
+        </ol>
+    </li>
+</ol>
+
+<p>正则表达式</p>
+<ol>
+    <li>
+        正则表达式是有普通字符和特殊字符组成的模式字符串，作为一个模板，将字符模式与指定的字符进行匹配。
+        <ol>
+            <li>
+                字符类
+                <ol>
+                    <li>[...]  /[012]/  匹配字符串中的或0或1或2</li>
+                    <li>[^...] /[^012]/ 匹配除0、1、2中的任意字符 /[^a-z]/ 匹配不再小写字母a-z之间的任意字符</li>
+                    <li>. 匹配除了换行回车之外的任意字符，相当于[^\r\n]</li>
+                    <li>\d 匹配任意一个数字字符，相当于[0-9],/\d\d/匹配wy32k中的32</li>
+                    <li>\D 匹配任意一个非数字字符，相当于[^0-9] /\D/可以匹配wy3k中的w或y或k</li>
+                    <li>\s 匹配任意空白字符，如空格、制表符、换行符等，相当于[\t\n\x0B\f\r],/\s\d/可以匹配my name is 20 age中的 2</li>
+                    <li>\S 匹配任意非空白符，相当与[^\t\n\x0B\f\r] /\S/可以匹配A B中的A或B</li>
+                    <li>\w 匹配任何英文字母、数字字符以及下划线，相当于[a-zA-Z0-0],/\w/可以匹配与asdfdf09_+8中的数字、字母、下划线</li>
+
+                </ol>
+            </li>
+            <li>
+                量词：
+                <ol>
+                    <li>? 匹配前一项0次或1次，/JS?/可以匹配JScript中的JS或者JavaScript中的J</li>
+                    <li>+ 匹配前一项1次或多次，但至少出现一次,/JS+/可以匹配JS，也可以匹配JSSSS或者JSSSSSSSS，也就是说可以匹配J后面出现的一个或多个S。</li>
+                    <li>* 匹配前一项0次或者多次，也就是任意次，/bo*/可以匹配b、bo、boo、boooo之类的字符串</li>
+                    <li>{n} 匹配前一项恰好n次，其中n为非负整数，/o{2}/可以匹配book中的两个o,也可以匹配booook中任意两个连续的o</li>
+                    <li>{n,} 匹配前一项至少n次，/o{2,}/不匹配home中的o，因为至少需要匹配两个o，所以可以匹配good或者gooood中的所有o</li>
+                    <li>{n,m} 匹配前一项至少n次，但不能超过m次，其中m,n是非负整数，并且n<=m,/0{2，5}/可以匹配book中的两个o，也可以匹配boooook中的5个连续的o</li>
+                    <li>在使用{n,m}时，数字与逗号之间不能有空格符</li>
+                </ol>
+            </li>
+            <li>
+                指定匹配位置：
+                <ol>
+                    <li>^ 匹配字符串的开头，/^g/匹配good中的g，但不匹配bug中的g</li>
+                    <li>$ 匹配字符串的行结尾，/g$/匹配bag中的g，当不匹配good中的g</li>
+                    <li>\b 匹配单词的边界，/e\b/匹配"I love seek"中的love中的e，不匹配seek中的e</li>
+                    <li>\B 匹配单词的非边界，/e\B/匹配"I love seek"中的seek中的e，不匹配love中的e</li>
+
+                </ol>
+            </li>
+            <li>
+                使用选择匹配符
+                <ol>
+                    <li>
+                        正则表达式的选择匹配符只有一个"|",使用"|"可以匹配指定的多个选项中的任意一项。
+                    </li>
+                </ol>
+            </li>
+            <li>
+                分组
+                <ol>
+                    <li>分组就是使用小括号将多个单独的字符或字符类，以便可以像处理一个独立的单元那样。</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        通过RegExp类的构造方法创建
+        <ol>
+            <li>语法格式：new RegExp(pattern[,flags])</li>
+            <li>pattern:必选参数，用户指定需要进行匹配的模式字符串</li>
+            <li>
+                flags:可选参数，用于指定正则表达式的标志信息
+                <ol>
+                    <li>g:全局标志，如果设置了该标志，对于某个文本执行搜索或者替换时，将对文本中的所有匹配部分起作用，否则仅搜索第一次匹配的内容</li>
+                    <li>i:忽略大小写标志</li>
+                    <li>m:多行标志。如果不设置这个标志，那么^只能匹配字符串开头，$只能匹配字符串的结尾；如果设置了这个标志，那么^可以匹配每一行的开头，$可以匹配每一行的结尾</li>
+                    <li></li>
+                </ol>
+            </li>
+            <li>实例：var objExp=new RepExp("\\d".g)</li>
+        </ol>
+    </li>
+    <li>
+        通过正则表达式字面量创建RegExp对象
+        <ol>
+            <li>正则表达式字面量由两条斜线//中间加入模式匹配字符串组成，如果还要指定标志信息，则在最后的斜线加上标志信息，比如g或者i。</li>
+            <li>实例：var objExp=/\d/g</li>
+        </ol>
+    </li>
+    <li>
+        使用test()方法进行模式匹配
+        <ol>
+            <li>test()方法用户对一个指定的字符串执行模式匹配，如果搜索到匹配的字符，返回true，否则返回false</li>
+            <li>实例：var objExp=/\d/g;objExp.test(123456);</li>
+        </ol>
+    </li>
+    <li>
+        使用exec()方法进行模式匹配
+        <ol>
+            <li>exec()方法的返回值不是true或者false，而是当没有搜索到匹配的字符时，返回null,走则返回一个数组，这个数组的第一个元素包含于正则表达式相匹配的字符串，其他元素包含的是匹配的各个分组（用括号括起来的子表达式）</li>
+            <li>语法格式：regExp.exec(str);</li>
+        </ol>
+    </li>
+</ol>

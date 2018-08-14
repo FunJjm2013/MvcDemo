@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>欢迎来到MVC世界！</p>
+
+<ol>
+    <li>@Html.ActionLink("欢迎", "Welcome", "Home", new { Area = "MVCStudy" }, htmlAttributes: new { id = "indexLink" })</li>
+    <li>@Html.ActionLink("语法", "Grammer", "Home", new { Area = "MVCStudy" }, htmlAttributes: new { id = "grammerLink" })</li>
+</ol>
